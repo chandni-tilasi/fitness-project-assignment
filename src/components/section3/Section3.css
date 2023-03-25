@@ -1,0 +1,81 @@
+.slide4Image {
+  background-image: url("https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-54587.jpg?w=360");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  position: relative;
+}
+
+.headingSlide {
+  color: white;
+  font-size: 48px;
+  top: 50%;
+  left: 42%;
+  position: absolute;
+}
+
+.img-container::-webkit-scrollbar {
+  display: none;
+}
+
+.img-container{
+  position: absolute;
+  top: -20px; 
+  left: 50px;
+  width: 100vh;
+  height: calc(100vw);
+
+  overflow: scroll;
+  transform: rotate(-90deg);
+  transform-origin: center calc(50vh);
+}
+
+.child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 1em auto;
+  /* padding: 2em; */
+  width: 100px;
+  height: 500px;
+
+  transform: rotate(90deg);
+
+  /* border: 1px solid #333; */
+  box-shadow: 3px 3px 6px rgba(#333, .3);
+
+  text-align: center;
+ 
+}
+
+.child p,h2{
+  color: white;
+  /* font-size: 100px; */
+}
+.heading .head2 {
+  margin-left: 30px;
+  color: darkgoldenrod;
+  padding: 5px;
+}
+
+.heading h3{
+  font-size: 30px;
+  font-weight: 900;
+}
+
+/* .img-container{
+  height: 500px;
+  height: 100vh;
+  border: 2px red solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+} */
+
+

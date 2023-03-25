@@ -1,0 +1,103 @@
+.slide1image {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  color: black;
+  position: relative;
+}
+.video1 {
+  height: 100vh;
+  width: 100%;
+  object-fit: fill;
+  /*position:absolute; */
+}
+
+.text-container-slide1 {
+  /*background-color:black;*/
+  color: aliceblue;
+  height: 20vh;
+  width: 10ovh;
+
+  /* z-index: 20px; */
+  position: absolute;
+  top: 45%;
+  left: 40%;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.text-container-slide1 .sub-heading{
+  color: orange;
+  margin-left: 10px;
+}
+/* .text-container-slide1 .heading .text-container-slide1 .sub-heading {} */
+
+.btn-container{
+  position: absolute;
+  top: 58%;
+  left: 42%;
+  /* background-color: blue; */
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  width: 250px;
+
+}
+
+
+/* Rectangle Out */
+.btn {
+ 
+  
+  /* margin-top: 50px; */
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  /* position: relative; */
+  background: blue;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  padding-top: 10px;
+  cursor: pointer;
+}
+.btn:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: orange;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.btn:hover, .btn:focus, .btn:active {
+  color: white;
+}
+.btn:hover:before, .btn:focus:before, .btn:active:before {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}

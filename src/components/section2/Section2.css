@@ -1,0 +1,114 @@
+.slide2Image {
+  background-image: url("https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-54587.jpg?w=360");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  position: relative;
+}
+
+.video2 {
+  height: 100vh;
+  width: 100%;
+  object-fit: fill;
+}
+
+.text-container-slide1 .head2 {
+    margin-left: 30px;
+    color: darkgoldenrod;
+}
+
+.text-container-slide1  {
+  color: aliceblue;
+  height: 20vh;
+  width: 10ovh;
+  position: absolute;
+  top: 45%;
+  left: 38%;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.section2-container {
+  display: flex;
+  justify-content: left;
+}
+
+.animation-part {
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  height: 560px;
+  width: 300px;
+  overflow: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  border-radius: 10px;
+}
+.animation-part::-webkit-scrollbar {
+  display: none;
+}
+
+/* https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrZc_5TEYGZKk2826O_kx-QaSTHTqA7JD-6g&usqp=CAU */
+
+.textImg-container {
+  object-fit: cover;
+  height: 180px;
+  width: 220px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  border-radius: 10px;
+}
+
+.animation-part .div2,
+.div3 {
+  margin-top: 20px;
+}
+
+.animation-part .div1 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr-082TZSaEaytWTN_-9pCLsHb_eO5ToecCw&usqp=CAU");
+}
+
+.animation-part .div2 {
+  background-image: url("https://lmimirror3pvr.azureedge.net/static/media/18461/22b355e1-db06-4491-b67c-f00048f78b99/training-load-960x540.jpg");
+}
+
+.animation-part .div3 {
+  background-image: url(" https://static.toiimg.com/photo/msid-92328170.cms");
+}
+
+.textImg-container .text {
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 20px;
+  color: orange;
+}
+
+.left-container {
+  position: absolute;
+  top: 45%;
+  width: 300px;
+  text-align: center;
+  right: 5%;
+  color: white;
+}
+
+.animate-subheaing {
+  position: absolute;
+  top: 53%;
+  width: 500px;
+  text-align: center;
+  left: -50%;
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.left-container h2{
+  color: orange;
+}
